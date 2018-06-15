@@ -17,7 +17,8 @@ sha256sums=('4d9bec034767e2a08f843e1dd61bdf7ead97621c2977886a9288fb898342578f')
 
 prepare() {
 	cd materia-theme-${pkgver}
-    find ./ -type f -exec sed -i 's/01A299/d64937/g' {} \;
+    	find ./ -type f -exec sed -i 's/01A299/d64937/g' {} \;
+	find ./ -type f -exec sed -i 's/4285F4/d64937/g' {} \;
 }
 
 build() {

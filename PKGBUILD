@@ -3,7 +3,7 @@
 # Modified for Namib by frederic2ec
 
 pkgname=materia-namib-gtk-theme
-pkgver=20180519
+pkgver=20181125
 pkgrel=1
 pkgdesc="A Material Design theme for GNOME/GTK+ based desktop environments with Numix color"
 arch=('any')

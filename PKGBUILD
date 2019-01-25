@@ -13,7 +13,7 @@ makedepends=('sassc' 'parallel')
 depends=('gtk3' 'gnome-themes-extra')
 optdepends=('gtk-engine-murrine: for gtk2 theme')
 source=(${pkgname}-${pkgver}.tar.gz::"https://github.com/nana-4/materia-theme/archive/v${pkgver}.tar.gz")
-sha256sums=('4d9bec034767e2a08f843e1dd61bdf7ead97621c2977886a9288fb898342578f')
+sha256sums=('50066e40cbfc8e00a995fb73522d1cb6b21b236fa03b4463d9e25a0f5c4fe5bc')
 
 prepare() {
 	cd materia-theme-${pkgver}

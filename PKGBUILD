@@ -3,7 +3,7 @@
 # Modified for Namib by frederic2ec
 
 pkgname=materia-namib-gtk-theme
-pkgver=20181125
+pkgver=20190315
 pkgrel=1
 pkgdesc="A Material Design theme for GNOME/GTK+ based desktop environments with Numix color"
 arch=('any')
@@ -13,7 +13,7 @@ makedepends=('sassc' 'parallel')
 depends=('gtk3' 'gnome-themes-extra')
 optdepends=('gtk-engine-murrine: for gtk2 theme')
 source=(${pkgname}-${pkgver}.tar.gz::"https://github.com/nana-4/materia-theme/archive/v${pkgver}.tar.gz")
-sha256sums=('50066e40cbfc8e00a995fb73522d1cb6b21b236fa03b4463d9e25a0f5c4fe5bc')
+sha256sums=('67d0eb24da3156e0d22cad18eca43769243cee673428b7cd2e31095efdee68c3')
 
 prepare() {
 	cd materia-theme-${pkgver}
